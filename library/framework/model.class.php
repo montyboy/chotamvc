@@ -10,8 +10,6 @@
  * 
  */
 
-require_once (ROOT . DS . 'plugins' . DS . 'doctrine'. DS .'doctrine.php');
-
 class Model extends Doctrine_Record {
   public function __construct(){
     parent::__construct();

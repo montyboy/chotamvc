@@ -7,7 +7,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
-class user extends Model {
+class user extends Model{
 
   public function setTableDefinition() {
     $this->hasColumn('username', 'string', 255);

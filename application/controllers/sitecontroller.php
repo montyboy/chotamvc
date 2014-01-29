@@ -14,13 +14,6 @@ class siteController extends Controller {
 
     function test(){
 
-      $u = new user;
-      $u->username = 'johndoe';
-      $u->password = 'secret';
-      $u->first_name = 'John';
-      $u->last_name = 'Doe';
-      $u->save();
-
     }
 }
 
