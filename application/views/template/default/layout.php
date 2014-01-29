@@ -33,8 +33,10 @@
             <div class="row-fluid">
 
                 <?php
-                //include content
-                include($content_page);
+                  //include content
+                  if(isset($content_page)){
+                    include($content_page);
+                  }
                 ?>
                 <?php
                 //include footer partial

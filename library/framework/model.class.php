@@ -9,64 +9,11 @@
  * 3. useful to write common method used accross the all child models
  * 
  */
-class Model extends SQLQuery {
 
-    /**
-     * store the current model reference
-     */
-    protected $_model;
-    protected $_query;
+require_once (ROOT . DS . 'plugins' . DS . 'doctrine'. DS .'doctrine.php');
 
-    /**
-     * constructor that connects to the db server
-     * it read all required parameters from the config/config.php file
-     * 
-     */
-    function __construct() {
-        if (DB) {
-            $this->connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
-            $this->_model = get_class($this);
-            $this->_table = strtolower(preg_replace('/([a-z])([A-Z])/', '$1_$2', $this->
-                _model)) . "s";
-        }
-    }
-
-    /**
-     * destructor
-     */
-    function __destruct() {
-    }
-    
-    public function getQuery(){
-        return $this->_query;
-    }
-
-    /**
-     * Common method to save row in database table
-     * @param $contentValues - contentValues is a mapped array database key and database values
-     */
-    public function save($contentValues) {
-		try{
-			$query = "INSERT INTO " . $this->_table . " (__COLUMNS__) VALUES( __VALUES__ )";
-			$columns = "";
-			$values = "";
-			foreach ($contentValues as $key => $value) {
-				$columns .= ", " . $key;
-				if (is_numeric($value))
-					$values .= ', ' . $value;
-				else
-					$values .= ', "' . mysql_real_escape_string($value) . '"';
-
-			}
-
-			$query = str_replace(array("__COLUMNS__", "__VALUES__"), array(substr($columns,
-				1), substr($values, 1)), $query);
-            $this->_query = $query;
-            $this->query($query);
-            return mysql_insert_id();
-		}catch(Exception $ex){
-			echo $ex;
-		}
-        return null;
-    }
+class Model extends Doctrine_Record {
+  public function __construct(){
+    parent::__construct();
+  }
 }

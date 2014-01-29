@@ -87,6 +87,8 @@ function __autoload($className) {
     } else {
         /* Error Generation Code Here */
     }
+
+
 }
 
 function getRoutePath($url) {
@@ -152,9 +154,11 @@ function getRouteByPattern($url) {
     return $returnUrl;
 }
 
+
 session_start();
 setReporting();
 removeMagicQuotes();
 unregisterGlobals();
 $_SESSION['sTime'] = $sTime;
 callHook();
+

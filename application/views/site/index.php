@@ -1,5 +1,5 @@
 <div class="hero-unit">
-    <h1>Hello, doMVC!</h1>
+    <h1>Hello, chotaMVC!</h1>
     <p>PHP light framework. PHP framework with easy steps. 'do' framework is easy to understand, install and use. Well maintained documentation. Easy to deploy on server.</p>
     <p><a class="btn btn-primary btn-large">Learn more »</a></p>
 </div>

@@ -1,12 +1,12 @@
 <?php
 
-class admin extends Model {
+class admin extends Model  {
 
-    protected $user = null;
-    protected $credentials = null;
-    protected $islogged = false;
-	
-	public function login($username="",$password="",$captcha="") {
+  protected $user = null;
+  protected $credentials = null;
+  protected $islogged = false;
+
+  public function login($username="",$password="",$captcha="") {
 		
 	}
 	

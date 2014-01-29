@@ -55,14 +55,17 @@ class Template {
         $_user = $this->_user;
         $title = $this->_pageTitle;
 		
-		//include common view function library
+		    //include common view function library
         require_once(ROOT . DS . 'library' . DS . 'framework' . DS .  'view.php');
         
         $include_header = $this->generateHeader();
         
         $content_page = ROOT . DS . 'application' . DS . 'views' . DS . $this->_controller . DS . $this->_view . '.php';
-		
-        include (ROOT . DS . 'application' . DS . 'views' . DS .'template' . DS . $this->_layout.'.php');
+
+        if(file_exists($content_page)){
+          include (ROOT . DS . 'application' . DS . 'views' . DS .'template' . DS . $this->_layout.'.php');
+        }
+
     }
     
     /** Add CSS **/
