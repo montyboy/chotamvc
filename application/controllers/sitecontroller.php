@@ -8,12 +8,13 @@
 
 class siteController extends Controller {
 	
-	  function index() {
+	function index() {
 
     }
 
     function test(){
-
+		
+		
     }
 }
 
