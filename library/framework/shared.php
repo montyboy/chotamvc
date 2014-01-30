@@ -70,33 +70,11 @@ function dispatch($controllerName, $action, $queryString) {
     }
 }
 
-/** Autoload any classes that are required * */
-function __autoload($className) {
-    if (file_exists(ROOT . DS . 'library' . DS . 'framework' . DS . strtolower($className) . '.php')) {
-        require_once(ROOT . DS . 'library' . DS . 'framework' . DS . strtolower($className) . '.php');
-    } elseif (file_exists(ROOT . DS . 'library' . DS . 'framework' . DS . strtolower($className) . '.class.php')) {
-        require_once(ROOT . DS . 'library' . DS . 'framework' . DS . strtolower($className) . '.class.php');
-    } elseif (file_exists(ROOT . DS . 'application' . DS . 'controllers' . DS . strtolower($className) . '.php')) {
-        require_once(ROOT . DS . 'application' . DS . 'controllers' . DS . strtolower($className) . '.php');
-    } elseif (file_exists(ROOT . DS . 'application' . DS . 'models' . DS . $className . '.php')) {
-        require_once(ROOT . DS . 'application' . DS . 'models' . DS . $className . '.php');
-    } elseif (file_exists(ROOT . DS . 'application' . DS . 'models' . DS . strtolower($className) . '.php')) {
-        require_once(ROOT . DS . 'application' . DS . 'models' . DS . strtolower($className) . '.php');
-    } elseif (file_exists(ROOT . DS . 'plugins' . DS . $className . '.php')) {
-        require_once(ROOT . DS . 'plugins' . DS . $className . '.php');
-    } else {
-        /* Error Generation Code Here */
-    }
-
-
-}
 
 function getRoutePath($url) {
     global $routes;
     if (substr($url, -1) !== '/')
         $url = '/' . $url;
-
-
 
     if (array_key_exists($url, $routes)) {
         $action = $routes[$url]['action'];
@@ -153,6 +131,26 @@ function getRouteByPattern($url) {
     }
     return $returnUrl;
 }
+
+/** Autoload any classes that are required * */
+spl_autoload_register(function($className) {
+    if (file_exists(ROOT . DS . 'library' . DS . 'framework' . DS . strtolower($className) . '.php')) {
+        require_once(ROOT . DS . 'library' . DS . 'framework' . DS . strtolower($className) . '.php');
+    } elseif (file_exists(ROOT . DS . 'library' . DS . 'framework' . DS . strtolower($className) . '.class.php')) {
+        require_once(ROOT . DS . 'library' . DS . 'framework' . DS . strtolower($className) . '.class.php');
+    } elseif (file_exists(ROOT . DS . 'application' . DS . 'controllers' . DS . strtolower($className) . '.php')) {
+        require_once(ROOT . DS . 'application' . DS . 'controllers' . DS . strtolower($className) . '.php');
+    } elseif (file_exists(ROOT . DS . 'application' . DS . 'models' . DS . $className . '.php')) {
+        require_once(ROOT . DS . 'application' . DS . 'models' . DS . $className . '.php');
+    } elseif (file_exists(ROOT . DS . 'application' . DS . 'models' . DS . strtolower($className) . '.php')) {
+        require_once(ROOT . DS . 'application' . DS . 'models' . DS . strtolower($className) . '.php');
+    } elseif (file_exists(ROOT . DS . 'plugins' . DS . $className . '.php')) {
+        require_once(ROOT . DS . 'plugins' . DS . $className . '.php');
+    } else {
+        /* Error Generation Code Here */
+    }
+});
+
 
 
 session_start();

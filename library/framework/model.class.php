@@ -16,7 +16,6 @@ class Model extends ActiveRecord\Model {
   public function __construct(){
 	// explicit connection name since we always want production with this model
 	static $connection = 'development';
-	parent::__construct();
   } 
 }
 

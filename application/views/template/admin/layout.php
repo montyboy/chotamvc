@@ -5,23 +5,20 @@
 <title><?php echo $title; ?></title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Bootstrap -->
-<link href="public/cms/css/bootstrap.min.css" rel="stylesheet" media="screen">
-<link href="public/cms/css/admin.css" rel="stylesheet" media="screen">
+<link href="<?php echo BASEPATH;?>cms/css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href="<?php echo BASEPATH;?>cms/css/admin.css" rel="stylesheet" media="screen">
 <script src="http://code.jquery.com/jquery.js"></script>
-<script src="public/cms/js/bootstrap.min.js"></script>
+<script src="<?php echo BASEPATH;?>cms/js/bootstrap.min.js"></script>
+<?php include_partial("template/admin/header");?>
 <div class="container-fluid">
-<?php
-include_partial("template/admin/header");
-?>
-
-<?php
-//include content
-include($content_page);
-?>
-<?php
-//include footer partial
-include_partial("template/admin/footer");
-?>
+	<?php if($user->isLoggedIn()):?>
+	<div class="row-fluid">
+		<?php include_partial("template/admin/menu");?>
+		<div class="span9"><?php include($content_page);?></div>
+	<?php else: ?>
+		<?php include($content_page);?>
+	<?php endif;?>		
+	<?php include_partial("template/admin/footer");?>
 </div>
 </body>	
 </html>

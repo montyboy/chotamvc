@@ -1,34 +1,72 @@
 <?php
+/*
+ * Admin model which is used for managing the main website
+ */
+ 
+class admin extends ActiveRecord\Model {
 
-class admin extends Model  {
+	protected $user = null;
+	
+	static $Instance;
+	
+	// explicit table name since our table is not "admin"
+	static $table_name = 'admin';
 
-  protected $user = null;
-  protected $credentials = null;
-  protected $islogged = false;
+	// explicit pk since our pk is not "id"
+	static $primary_key = 'id';
+	
+	public static function getInstance(){
+        if (!self::$Instance){
+        	self::$Instance = new admin;
+			if(self::$Instance->getUser()){
+				return self::$Instance->getUser();
+			}
+        }
+		return self::$Instance;
+    } 
 
-  public function login($username="",$password="",$captcha="") {
+	public function validatelogin($username = "", $password = "", $captcha = "") {
+		$this->user = admin::find('first', array('conditions' => array('username = ?', $username)));
+		if(isset($this->user) && $this->user->password==md5($password)){
+			if($this->validateCaptcha($captcha)){
+				$this->updateLastLogin();
+				Core::setAttr('user', $this->user);
+				return false;			
+			}else{
+				return "Invalid captcha code";
+			}	
+		}
+		
+		return "Invalid login details";
 		
 	}
-	
+
 	public function logout() {
-		
+		Core::clearAttr('user');
 	}
-	
+
 	public function isLoggedIn() {
-		return $this->islogged;
+		if ($this->getUser()){
+			return true;
+		}
+		return false;
 	}
-	
-	private function validateCaptcha(){
+
+	private function validateCaptcha($captcha) {
+		if(Core::getAttr('randCode')==$captcha){
+			return true;
+		}
+		return false;
+
+	}
+
+	public function getUser() {
+		return Core::getAttr('user');
+	}
+
+	private function updateLastLogin(){
 		
-	}
-	
-	public function getUser(){
-		
-	}
-	
-	public function isSuperUser(){
-		
-	}
-	
+	} 
 
 }
+

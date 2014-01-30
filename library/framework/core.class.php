@@ -139,7 +139,7 @@ abstract class Core {
      * static method to redirect the page
      */
     public static function redirectUrl($url) {
-        header('Location: ' . $url);
+        header('Location: ' .BASEPATH.$url);
     }
 
     /**
