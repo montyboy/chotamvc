@@ -18,5 +18,7 @@ define('DEFAULT_TEMPLATE', "default");
 
 define('BASEPATH', "/");
 
+define('SITE_NAME', "My Cabana Boy");
+
 
 

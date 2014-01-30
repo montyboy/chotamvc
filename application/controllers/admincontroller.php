@@ -13,6 +13,7 @@ class adminController extends Controller {
 		$this->setLayout("admin/layout");
 		$this->adminuser = admin::getInstance();
 		$this->set('user',$this->adminuser);
+		$this->setTitle(SITE_NAME);
 	}
 	
 	/*
@@ -41,7 +42,7 @@ class adminController extends Controller {
 			
 			// Check for errors
         }
-		$this->setTitle("Administration Login");
+		$this->setTitle(SITE_NAME." Administration Login");
 		$this->setView("login");
 	} 
 	
