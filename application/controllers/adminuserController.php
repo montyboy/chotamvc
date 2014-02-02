@@ -10,7 +10,7 @@ class adminuserController extends adminController {
 		parent::__construct();
 	}
 	
-	public function index(){
+	public function edit(){
 		
 	}
 	

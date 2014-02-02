@@ -89,7 +89,7 @@ class Controller extends Core {
      * Method to include the JS file
      */
     function addJs($file) {
-        $this->_template->addJs($file);
+    	$this->_template->addJs($file);
     }
 
     /**
@@ -100,7 +100,7 @@ class Controller extends Core {
     }
 
     function setView($view) {
-        $this->_template->setView($view);
+    	$this->_template->setView($view);
     }
 
 }

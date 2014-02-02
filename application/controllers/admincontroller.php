@@ -8,12 +8,14 @@ class adminController extends Controller {
 	
 	protected $adminuser;
 	static $loginURL = "cmslogin";
-	public function __construct($controller, $action){
+	public function __construct($controller="", $action=""){
 		parent::__construct($controller, $action);
 		$this->setLayout("admin/layout");
 		$this->adminuser = admin::getInstance();
 		$this->set('user',$this->adminuser);
 		$this->setTitle(SITE_NAME);
+		$this->breadcrumb = new BreadCrumb();
+		$this->set('modulename',"");
 	}
 	
 	/*
@@ -51,7 +53,10 @@ class adminController extends Controller {
 	 */
 	public function index(){
 		if($this->adminuser->isLoggedIn()){
-			
+			$modulename = "Dashboard";
+			$this->set('modulename',$modulename);
+			$this->breadcrumb->add($modulename);
+			$this->set('breadcrumb',$this->breadcrumb->draw());
 		}else{
 			self::redirectUrl(self::$loginURL);
 		}

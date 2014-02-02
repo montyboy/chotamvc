@@ -9,18 +9,17 @@
 <link href="<?php echo BASEPATH;?>cms/css/admin.css" rel="stylesheet" media="screen">
 <script src="http://code.jquery.com/jquery.js"></script>
 <script src="<?php echo BASEPATH;?>cms/js/bootstrap.min.js"></script>
+<?php echo $include_header; ?>
 <?php include_partial("template/admin/header",array('user'=> $user));?>
 <div class="container-fluid" style="margin:40px 0 0 0;">
 	<?php if($user->isLoggedIn()):?>
 	<div class="row-fluid">
-		<ul class="breadcrumb">
-		  <li><a href="#">Home</a> <span class="divider">/</span></li>
-		  <li><a href="#">Library</a> <span class="divider">/</span></li>
-		  <li class="active">Data</li>
-		</ul>
+		<?php if(isset($breadcrumb)):?>
+		<?php echo $breadcrumb;?>
+		<?php endif;?>
 	</div>	
 	<div class="row-fluid">
-		<?php include_partial("template/admin/menu",array('user'=> $user));?>
+		<?php include_partial("template/admin/menu",array('user'=> $user,'modulename'=> $modulename));?>
 		<div class="span9"><?php include($content_page);?></div>
 	<?php else: ?>
 		<?php include($content_page);?>

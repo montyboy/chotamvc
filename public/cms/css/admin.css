@@ -1,5 +1,5 @@
 body {
-	background: #f5f5f5;
+	background: #ffffff;
     }
 
 #admin-login{
@@ -32,4 +32,7 @@ body {
     padding: 7px 9px;
   }
 
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner{
+	box-shadow:0 0 5px 0;
+}
     
