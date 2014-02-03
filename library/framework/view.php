@@ -123,7 +123,7 @@ function field_input($name = null, $props = array()) {
     if ($formValue != null)
         $props['value'] = $formValue;
 
-    echo '<input id="input_' . $name . '" name="' . $name . '" ' . getArrayAsPropertyString($props) . ' />';
+    echo '<input name="' . $name . '" ' . getArrayAsPropertyString($props) . ' />';
 }
 
 function getArrayAsPropertyString($arr = null) {

@@ -29,9 +29,9 @@ class admin extends ActiveRecord\Model {
 		$this->user = admin::find('first', array('conditions' => array('username = ?', $username)));
 		if(isset($this->user) && $this->user->password==md5($password)){
 			if($this->validateCaptcha($captcha)){
-				$this->updateLastLogin();
 				Core::setAttr('user', $this->user);
-				return false;			
+        $this->user->updateLastLogin();
+				return;
 			}else{
 				return "Invalid captcha code";
 			}	
@@ -65,7 +65,8 @@ class admin extends ActiveRecord\Model {
 	}
 
 	private function updateLastLogin(){
-		
+		  $this->last_login = date('Y-m-d H:i:s');
+      $this->save();
 	} 
 
 }

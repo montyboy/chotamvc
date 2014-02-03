@@ -18,7 +18,11 @@ define('DEFAULT_TEMPLATE', "default");
 
 define('BASEPATH', "/");
 
-define('SITE_NAME', "My Cabana Boy");
+define('SITE_NAME', "Demo CMS");
+
+define('APP_VIEWS', ROOT . DS . 'application' . DS .'views');
+
+
 
 
 

@@ -1,350 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa6b3237-4f8c-40cb-a40b-71222f337994" name="Default" comment="Pushing the plugin">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/user.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/database.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/doctrine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Access.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Adapter/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Adapter/Interface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Adapter/Mock.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Adapter/Oracle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Adapter/Statement.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Adapter/Statement/Interface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Adapter/Statement/Mock.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Adapter/Statement/Oracle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/AuditLog.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/AuditLog/Listener.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/AuditLog/Listener/Microtime.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Builder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Cache/Apc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Cache/Array.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Cache/Db.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Cache/Driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Cache/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Cache/Interface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Cache/Memcache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Cache/Xcache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Cli.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Cli/AnsiColorFormatter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Cli/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Cli/Formatter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Collection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Collection/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Collection/Iterator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Collection/Iterator/Expandable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Collection/Iterator/Normal.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Collection/Iterator/Offset.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Collection/Offset.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Collection/OnDemand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Column.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Compiler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Compiler/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Configurable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Connection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Connection/Common.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Connection/Db2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Connection/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Connection/Mock.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Connection/Module.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Connection/Mssql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Connection/Mssql/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Connection/Mysql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Connection/Mysql/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Connection/Oracle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Connection/Oracle/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Connection/Pgsql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Connection/Pgsql/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Connection/Profiler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Connection/Profiler/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Connection/Sqlite.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Connection/Sqlite/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Connection/Statement.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Connection/UnitOfWork.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Core.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Data.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/DataDict.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/DataDict/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/DataDict/Mssql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/DataDict/Mysql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/DataDict/Oracle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/DataDict/Pgsql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/DataDict/Sqlite.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Data/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Data/Export.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Data/Import.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Event.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/EventListener.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/EventListener/Chain.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/EventListener/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/EventListener/Interface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Export.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Export/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Export/Mssql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Export/Mysql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Export/Oracle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Export/Pgsql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Export/Reporter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Export/Schema.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Export/Sqlite.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Expression.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Expression/Driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Expression/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Expression/Mock.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Expression/Mssql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Expression/Mysql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Expression/Oracle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Expression/Pgsql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Expression/Sqlite.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/File.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/File/Index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Formatter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Hook.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Hook/Equal.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Hook/Integer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Hook/Parser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Hook/Parser/Complex.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Hook/WordLike.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Hydrator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Hydrator/Abstract.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Hydrator/ArrayDriver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Hydrator/ArrayHierarchyDriver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Hydrator/ArrayShallowDriver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Hydrator/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Hydrator/Graph.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Hydrator/NoneDriver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Hydrator/RecordDriver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Hydrator/RecordHierarchyDriver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Hydrator/ScalarDriver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Hydrator/SingleScalarDriver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/I18n.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/I18n/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Import.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Import/Builder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Import/Builder/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Import/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Import/Mssql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Import/Mysql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Import/Oracle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Import/Pgsql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Import/Schema.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Import/Sqlite.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Inflector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/IntegrityMapper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Lib.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Locator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Locator/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Locator/Injectable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Locking/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Locking/Manager/Pessimistic.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Manager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Manager/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Migration.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Migration/Base.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Migration/Builder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Migration/Diff.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Migration/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Migration/IrreversibleMigrationException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Migration/Process.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Node.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Node/AdjacencyList.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Node/AdjacencyList/LevelOrderIterator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Node/AdjacencyList/PostOrderIterator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Node/AdjacencyList/PreOrderIterator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Node/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Node/Interface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Node/MaterializedPath.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Node/MaterializedPath/LevelOrderIterator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Node/MaterializedPath/PostOrderIterator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Node/MaterializedPath/PreOrderIterator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Node/NestedSet.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Node/NestedSet/LevelOrderIterator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Node/NestedSet/PostOrderIterator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Node/NestedSet/PreOrderIterator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Null.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Overloadable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Pager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Pager/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Pager/Layout.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Pager/Range.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Pager/Range/Jumping.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Pager/Range/Sliding.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Parser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Parser/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Parser/Json.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Parser/Serialize.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Parser/Xml.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Parser/Yml.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Parser/sfYaml/sfYaml.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Parser/sfYaml/sfYamlDumper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Parser/sfYaml/sfYamlInline.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Parser/sfYaml/sfYamlParser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Query.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Query/Abstract.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Query/Check.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Query/Condition.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Query/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Query/Filter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Query/Filter/Chain.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Query/Filter/Interface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Query/Forupdate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Query/From.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Query/Groupby.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Query/Having.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Query/JoinCondition.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Query/Limit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Query/Offset.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Query/Orderby.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Query/Parser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Query/Part.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Query/Registry.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Query/Registry/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Query/Select.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Query/Set.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Query/Tokenizer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Query/Tokenizer/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Query/Where.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/RawSql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/RawSql/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Record.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Record/Abstract.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Record/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Record/Filter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Record/Filter/Compound.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Record/Filter/Standard.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Record/Generator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Record/Iterator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Record/Listener.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Record/Listener/Chain.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Record/Listener/Interface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Record/State/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Record/UnknownPropertyException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Relation.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Relation/Association.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Relation/Association/Self.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Relation/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Relation/ForeignKey.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Relation/LocalKey.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Relation/Nest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Relation/Parser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Relation/Parser/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Search.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Search/Analyzer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Search/Analyzer/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Search/Analyzer/Interface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Search/Analyzer/Standard.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Search/Analyzer/Utf8.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Search/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Search/File.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Search/Indexer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Search/Indexer/Dir.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Search/Indexer/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Search/Listener.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Search/Parser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Search/Query.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Search/Record.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Sequence.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Sequence/Db2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Sequence/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Sequence/Mssql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Sequence/Mysql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Sequence/Oracle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Sequence/Pgsql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Sequence/Sqlite.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Table/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Table/Repository.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Table/Repository/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Task.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Task/BuildAll.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Task/BuildAllLoad.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Task/BuildAllReload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Task/Compile.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Task/CreateDb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Task/CreateTables.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Task/Dql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Task/DropDb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Task/DumpData.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Task/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Task/GenerateMigration.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Task/GenerateMigrationsDb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Task/GenerateMigrationsDiff.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Task/GenerateMigrationsModels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Task/GenerateModelsDb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Task/GenerateModelsYaml.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Task/GenerateSql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Task/GenerateYamlDb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Task/GenerateYamlModels.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Task/LoadData.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Task/Migrate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Task/RebuildDb.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Template/Geographical.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Template/I18n.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Template/Listener/Sluggable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Template/Listener/SoftDelete.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Template/Listener/Timestampable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Template/NestedSet.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Template/Searchable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Template/Sluggable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Template/SoftDelete.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Template/Timestampable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Template/Versionable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Transaction.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Transaction/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Transaction/Mock.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Transaction/Mssql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Transaction/Mysql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Transaction/Oracle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Transaction/Pgsql.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Transaction/Sqlite.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Tree.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Tree/AdjacencyList.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Tree/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Tree/Interface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Tree/MaterializedPath.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Tree/NestedSet.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Util.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Validator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Validator/Country.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Validator/Creditcard.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Validator/Date.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Validator/Driver.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Validator/Email.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Validator/ErrorStack.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Validator/Exception.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Validator/Future.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Validator/Htmlcolor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Validator/Ip.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Validator/Minlength.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Validator/Nospace.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Validator/Notblank.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Validator/Notnull.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Validator/Past.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Validator/Range.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Validator/Readonly.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Validator/Regexp.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Validator/Time.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Validator/Timestamp.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Validator/Unique.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Validator/Unsigned.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Validator/Usstate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/View.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/View/Exception.php" />
+    <list default="true" id="aa6b3237-4f8c-40cb-a40b-71222f337994" name="Default" comment="Adding new  changes of form data">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/pagesadmincontroller.php" afterPath="$PROJECT_DIR$/application/controllers/pagesadmincontroller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/sitecontroller.php" afterPath="$PROJECT_DIR$/application/controllers/sitecontroller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/admin.php" afterPath="$PROJECT_DIR$/application/models/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/template/default/header.php" afterPath="$PROJECT_DIR$/application/views/template/default/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/template/default/layout.php" afterPath="$PROJECT_DIR$/application/views/template/default/layout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/login.php" afterPath="$PROJECT_DIR$/application/views/admin/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/pagesadmin/add.php" afterPath="$PROJECT_DIR$/application/views/pagesadmin/add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/pagesadmin/edit.php" afterPath="$PROJECT_DIR$/application/views/pagesadmin/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/pagesadmin/form.php" afterPath="$PROJECT_DIR$/application/views/pagesadmin/form.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config.php" afterPath="$PROJECT_DIR$/config/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/framework/bootstrap.php" afterPath="$PROJECT_DIR$/library/framework/bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/framework/model.class.php" afterPath="$PROJECT_DIR$/library/framework/model.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/framework/shared.php" afterPath="$PROJECT_DIR$/library/framework/shared.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/framework/template.class.php" afterPath="$PROJECT_DIR$/library/framework/template.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/logs/error.log" afterPath="$PROJECT_DIR$/tmp/logs/error.log" />
-      <change type="MOVED" beforePath="E:\xampp-new\htdocs\chotamvc\application\views\site\home.php" afterPath="$PROJECT_DIR$/application/views/site/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library/framework/view.php" afterPath="$PROJECT_DIR$/library/framework/view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/zebra_form/css/zebra_form.css" afterPath="$PROJECT_DIR$/public/zebra_form/css/zebra_form.css" />
     </list>
     <ignored path="chotamvc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -364,77 +32,98 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="doctrine.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/doctrine/doctrine.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="21" selection-start="392" selection-end="392" vertical-scroll-proportion="-7.8461537">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Manager.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Manager.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="293" column="29" selection-start="12069" selection-end="12072" vertical-scroll-proportion="-15.461538">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Injectable.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Locator/Injectable.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="63.346153">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="model.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/framework/model.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="35" selection-start="388" selection-end="388" vertical-scroll-proportion="-12.423077">
-              <folding>
-                <element signature="e#7#205#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/user.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="19" selection-start="200" selection-end="200" vertical-scroll-proportion="-6.5384617">
-              <folding>
-                <element signature="e#6#171#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="admin.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="25" selection-start="27" selection-end="32" vertical-scroll-proportion="0.079254076">
+            <state line="34" column="56" selection-start="938" selection-end="938" vertical-scroll-proportion="-22.23077">
+              <folding>
+                <element signature="e#6#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/framework/view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="125" column="17" selection-start="3003" selection-end="3003" vertical-scroll-proportion="-13.346154">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shared.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/framework/shared.php">
+      <file leaf-file-name="pagesadmincontroller.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/pagesadmincontroller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="115" selection-start="2519" selection-end="2519" vertical-scroll-proportion="-12.423077">
+            <state line="57" column="40" selection-start="1954" selection-end="1954" vertical-scroll-proportion="0.8523677">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/framework/bootstrap.php">
+      <file leaf-file-name="edit.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/pagesadmin/edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="1" selection-start="126" selection-end="126" vertical-scroll-proportion="-3.2692308">
+            <state line="2" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="-1.3076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/pagesadmin/add.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="18" selection-start="0" selection-end="26" vertical-scroll-proportion="-0.65384614">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/framework/core.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="93" column="30" selection-start="1959" selection-end="1959" vertical-scroll-proportion="-5.576923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admincontroller.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/admincontroller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="40" selection-start="92" selection-end="102" vertical-scroll-proportion="-3.9230769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pages.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/pages.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="11" selection-start="80" selection-end="85" vertical-scroll-proportion="-1.9615384">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/pagesadmin/form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="32" selection-start="427" selection-end="427" vertical-scroll-proportion="-9.807693">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#fieldset#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#4;n#fieldset#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#fieldset#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grid.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/grid.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="57" column="112" selection-start="2071" selection-end="2071" vertical-scroll-proportion="-4.0">
               <folding />
             </state>
           </provider>
@@ -453,22 +142,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/site/home.php" />
-        <option value="$PROJECT_DIR$/library/framework/template.class.php" />
-        <option value="$PROJECT_DIR$/config/database.php" />
-        <option value="$PROJECT_DIR$/config/router.php" />
-        <option value="$PROJECT_DIR$/config/config.php" />
-        <option value="$PROJECT_DIR$/library/framework/bootstrap.php" />
-        <option value="$PROJECT_DIR$/config/plugins.php" />
-        <option value="$PROJECT_DIR$/application/models/UserMgt.php" />
-        <option value="$PROJECT_DIR$/application/models/item.php" />
-        <option value="$PROJECT_DIR$/application/models/admin.php" />
-        <option value="$PROJECT_DIR$/application/controllers/sitecontroller.php" />
-        <option value="$PROJECT_DIR$/library/framework/shared.php" />
-        <option value="$PROJECT_DIR$/library/framework/model.class.php" />
         <option value="$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Connection.php" />
         <option value="$PROJECT_DIR$/plugins/doctrine/doctrine.php" />
         <option value="$PROJECT_DIR$/application/models/user.php" />
+        <option value="$PROJECT_DIR$/application/controllers/sitecontroller.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/login.php" />
+        <option value="$PROJECT_DIR$/application/models/admin.php" />
+        <option value="$PROJECT_DIR$/library/framework/view.php" />
+        <option value="$PROJECT_DIR$/application/views/pagesadmin/add.php" />
+        <option value="$PROJECT_DIR$/plugins/plugins.inc.php" />
+        <option value="$PROJECT_DIR$/config/config.php" />
+        <option value="$PROJECT_DIR$/public/zebra_form/css/zebra_form.css" />
+        <option value="$PROJECT_DIR$/plugins/grid.php" />
+        <option value="$PROJECT_DIR$/application/views/pagesadmin/form.php" />
+        <option value="$PROJECT_DIR$/library/framework/core.class.php" />
+        <option value="$PROJECT_DIR$/application/views/pagesadmin/edit.php" />
+        <option value="$PROJECT_DIR$/application/controllers/pagesadmincontroller.php" />
       </list>
     </option>
   </component>
@@ -505,6 +194,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -533,7 +223,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chotamvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chotamvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chotamvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chotamvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -590,10 +308,6 @@
               <option name="myItemId" value="template" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -616,6 +330,28 @@
               <option name="myItemId" value="template" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chotamvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chotamvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -635,7 +371,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
+              <option name="myItemId" value="pagesadmin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -654,6 +390,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -688,14 +428,9 @@
               <option name="myItemId" value="application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -723,13 +458,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1456" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.205165" sideWeight="0.6703911" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20803443" sideWeight="0.6703911" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -738,7 +475,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -779,7 +515,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pushing the plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding new  changes of form data" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -793,6 +529,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Pushing the plugin" />
+    <MESSAGE value="Adding new  changes of form data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -800,120 +537,123 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/library/framework/sqlquery.class.php">
+    <entry file="file://$PROJECT_DIR$/application/views/template/admin/layout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="14" column="39" selection-start="870" selection-end="870" vertical-scroll-proportion="0.5547786">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admincontroller.php">
+    <entry file="file://$PROJECT_DIR$/plugins/plugins.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="2" column="42" selection-start="20" selection-end="49" vertical-scroll-proportion="-1.3076923">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/UserMgt.php">
+    <entry file="file://$PROJECT_DIR$/plugins/Zebra_Form/Zebra_Form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="27" selection-start="29" selection-end="34" vertical-scroll-proportion="-0.6923077">
+        <state line="2632" column="47" selection-start="125742" selection-end="125750" vertical-scroll-proportion="0.50639385">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/sitecontroller.php">
+    <entry file="file://$PROJECT_DIR$/public/zebra_form/css/zebra_form.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="15" selection-start="165" selection-end="165" vertical-scroll-proportion="-10.461538">
+        <state line="34" column="4" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#7#51#0" expanded="true" />
+            <marker date="1391438946858" expanded="true" signature="5805:5854" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="69" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
+        <state line="22" column="58" selection-start="445" selection-end="445" vertical-scroll-proportion="-14.384615">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Core.php">
+    <entry file="file://$PROJECT_DIR$/plugins/grid.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="207" column="10" selection-start="7706" selection-end="7706" vertical-scroll-proportion="0.11578947">
+        <state line="57" column="112" selection-start="2071" selection-end="2071" vertical-scroll-proportion="-4.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Connection.php">
+    <entry file="file://$PROJECT_DIR$/application/views/pagesadmin/form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="276" column="50" selection-start="10428" selection-end="10428" vertical-scroll-proportion="0.38607594">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/framework/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="1" selection-start="126" selection-end="126" vertical-scroll-proportion="-3.2692308">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/framework/shared.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="115" selection-start="2519" selection-end="2519" vertical-scroll-proportion="-12.423077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/doctrine/doctrine.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="21" selection-start="392" selection-end="392" vertical-scroll-proportion="-7.8461537">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Manager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="293" column="29" selection-start="12069" selection-end="12072" vertical-scroll-proportion="-15.461538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugins/doctrine/lib/Doctrine/Locator/Injectable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="63.346153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/framework/model.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="35" selection-start="388" selection-end="388" vertical-scroll-proportion="-12.423077">
+        <state line="15" column="32" selection-start="427" selection-end="427" vertical-scroll-proportion="-9.807693">
           <folding>
-            <element signature="e#7#205#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#fieldset#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#fieldset#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#4;n#fieldset#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#fieldset#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/item.php">
+    <entry file="file://$PROJECT_DIR$/application/models/pages.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="24" selection-start="26" selection-end="31" vertical-scroll-proportion="0.05112782">
+        <state line="5" column="11" selection-start="80" selection-end="85" vertical-scroll-proportion="-1.9615384">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/user.php">
+    <entry file="file://$PROJECT_DIR$/application/views/template/admin/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="19" selection-start="200" selection-end="200" vertical-scroll-proportion="-6.5384617">
-          <folding>
-            <element signature="e#6#171#0" expanded="true" />
-          </folding>
+        <state line="15" column="52" selection-start="752" selection-end="752" vertical-scroll-proportion="-9.807693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/framework/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="17" selection-start="3003" selection-end="3003" vertical-scroll-proportion="-13.346154">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="25" selection-start="27" selection-end="32" vertical-scroll-proportion="0.079254076">
+        <state line="34" column="56" selection-start="938" selection-end="938" vertical-scroll-proportion="-22.23077">
+          <folding>
+            <element signature="e#6#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admincontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="40" selection-start="92" selection-end="102" vertical-scroll-proportion="-3.9230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/framework/core.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="30" selection-start="1959" selection-end="1959" vertical-scroll-proportion="-5.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/pagesadmin/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="18" selection-start="0" selection-end="26" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/pagesadmin/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="-1.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/pagesadmincontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="40" selection-start="1954" selection-end="1954" vertical-scroll-proportion="0.8523677">
           <folding />
         </state>
       </provider>

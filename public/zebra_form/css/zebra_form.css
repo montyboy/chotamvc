@@ -25,7 +25,7 @@
 .Zebra_Form input.text,
 .Zebra_Form select,
 .Zebra_Form textarea {
-    display: block
+    /*display: block*/
 }
 
 .Zebra_Form .button,
