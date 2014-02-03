@@ -37,8 +37,8 @@ class Grid{
 		$this->deleteImg = "<img src=\"".$this->img_path."delete.gif\" width=\"16\" height=\"16\" alt=\"Delete\" title=\"Delete\" border=\"0\" />";
 		$this->orderAsc = "<img src=\"".$this->img_path."asc.gif\" width=\"6\" height=\"6\" alt=\"Ascending\" title=\"Ascending\" border=\"0\" />";
 		$this->orderDesc = "<img src=\"".$this->img_path."desc.gif\" width=\"6\" height=\"6\" alt=\"Descending\" title=\"Descending\"  border=\"0\" />";
-		$this->activeImg = "<img src=\"".$this->img_path."active.gif\" width=\"22\" height=\"23\" alt=\"Active\" title=\"Active\" border=\"0\" />";
-		$this->inactiveImg = "<img src=\"".$this->img_path."inactive.gif\" width=\"22\" height=\"22\" alt=\"Inactive\" title=\"Inactive\" border=\"0\" />";
+		$this->activeImg = "<span class=\"label label-info\">Active</span>";
+		$this->inactiveImg = "<span class=\"label label-important\">In Active</span>";
 		$this->nextImg = "<img src=\"".$this->img_path."next.gif\" width=\"16\" height=\"16\" alt=\"Next\" title=\"Next\" border=\"0\" />";
 		$this->prevImg = "<img src=\"".$this->img_path."prev.gif\" width=\"16\" height=\"16\" alt=\"Previous\" title=\"Previous\" border=\"0\" />";
 		
@@ -55,9 +55,9 @@ class Grid{
 	# Fuction to create list
 	public function createList(){
 		
-		$listData = "<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" id=\"".$this->listID."\" class=\"table table-striped\" width=\"".$this->listWidth."\">";
+		$listData = "<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" id=\"".$this->listID."\" class=\"table table-hover\" width=\"".$this->listWidth."\">";
 		# Create the row columns
-		$listData.= "<tr>";	
+		$listData.= "<tr>";
 		foreach($this->ItemArr as $key => $values){
 			unset($matches,$matches2);
 			preg_match_all("/{(.*)}/i", $values, $matches);
@@ -116,15 +116,15 @@ class Grid{
 					foreach($dbFields as $i=> $dbkey){
 						switch($dbkey){
 							case "status":
-								$listData.= "<td class=\"colData\" align=\"center\" style=\"text-align:center;\" valign=\"middle\">".(($item->$dbkey=='0') ? $this->inactiveImg : $this->activeImg)."</td>\n";
+								$listData.= "<td class=\"colData\" align=\"center\" valign=\"middle\">".(($item->$dbkey=='0') ? $this->inactiveImg : $this->activeImg)."</td>\n";
 							break;
 							case "deleteField":
 								$url =  $urlKEY[$i];
-								$listData.= "<td class=\"colData\" valign=\"middle\" style=\"text-align:center;\" align=\"center\"><a href=\"".$url."/".$recID."".$this->extraURLPara."\" onclick=\"return confirm('".$this->deleteMsg."')\">".$this->deleteImg."</a></td>\n";
+								$listData.= "<td class=\"colData\" valign=\"middle\" align=\"center\"><a href=\"".$url."/".$recID."".$this->extraURLPara."\" onclick=\"return confirm('".$this->deleteMsg."')\">".$this->deleteImg."</a></td>\n";
 							break;
 							case "editField":
 								$url =  $urlKEY[$i];
-								$listData.= "<td class=\"colData\" valign=\"middle\" style=\"text-align:center;\" align=\"center\"><a href=\"".$url."/".$recID."".$this->extraURLPara."\">".$this->editImg."</a></td>\n";
+								$listData.= "<td class=\"colData\" valign=\"middle\" align=\"center\"><a href=\"".$url."/".$recID."".$this->extraURLPara."\">".$this->editImg."</a></td>\n";
 							break;
 							default:
 								$listData.= "<td class=\"colData\" valign=\"top\">".strip_tags(stripslashes($item->$dbkey));
