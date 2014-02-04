@@ -15,5 +15,5 @@ ActiveRecord\Config::initialize(function($cfg) use ($connections)
 
 
 /* Zebra form plugin*/
-require_once(ROOT . DS . 'plugins' . DS . 'Zebra_Form'. DS. 'Zebra_Form.php');
+require_once(ROOT . DS . 'plugins' . DS . 'ZForm'. DS. 'Zebra_Form.php');
 
