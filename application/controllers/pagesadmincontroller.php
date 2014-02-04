@@ -49,21 +49,27 @@ class pagesadminController extends adminController {
 
     /* Description field */
     $form->add('label', 'label_status', 'label_status', 'Set the page state as');
-    $obj = $form->add('radio', 'status', '1',((isset($data) && $data->status==1)? "Checked" : ""));
-    $obj = $form->add('radio', 'status', '0',((isset($data) && $data->status==0)? "Checked" : ""));
-
-    return $form->render(APP_VIEWS.DS.$this->_controller.DS."form.php" ,true);
+    
+    $obj = $form->add('radio', 'status', '1',((isset($data) && $data->status==1) ? array("checked"=> 'checked'): ""));
+    $obj = $form->add('radio', 'status', '0',((isset($data) && $data->status==0) ? array("checked"=> 'checked'): ""));
+	
   }
 	
 	public function add(){
 		if($this->adminuser->isLoggedIn()){
-      $this->breadcrumb->add("Add new page");
+	      $this->breadcrumb->add("Add new page");
 			$this->set('breadcrumb',$this->breadcrumb->draw());
-      $form = new Zebra_Form('pagesadmin');
-      if($this->isPost() && $form->validate()){
-          $this->savedata();
-      }
-      $this->set('form_content',$this->loadform($form));
+	      $form = new Zebra_Form('pagesadmin');
+		  $this->loadform($form);
+		  $form->clientside_validation(false);
+	      if($this->isPost()){
+	  		if($form->validate()){
+	  			$this->savedata();	
+	  		}else{
+	      		$form->show_all_error_messages(true);
+			}	
+	      }
+	      $this->set('form_content',$form->render(APP_VIEWS.DS.$this->_controller.DS."form.php" ,true));
 		}else{
 			self::redirectUrl(self::$loginURL);
 		}
@@ -74,23 +80,28 @@ class pagesadminController extends adminController {
 			$page = Pages::getInstance()->find($id);
 			$this->breadcrumb->add("Edit page \"".$page->headline."\"");
 			$this->set('breadcrumb',$this->breadcrumb->draw());
-      $form = new Zebra_Form('pagesadmin');
-      if($this->isPost() && $form->validate()){
-        $this->savedata();
-      }
-      $this->set('form_content',$this->loadform($form,Pages::find($id)));
+			$form = new Zebra_Form('pagesadmin');
+			$this->loadform($form,Pages::find($id));
+			 if($this->isPost()){
+		  		if($form->validate()){
+		  			$this->savedata($id);	
+		  		}else{
+		      		$form->show_all_error_messages(true);
+				}	
+		      }
+	      	$this->set('form_content',$form->render(APP_VIEWS.DS.$this->_controller.DS."form.php" ,true));
 		}else{
 			self::redirectUrl(self::$loginURL);
 		}
 	}
 	
 	private function savedata($id=""){
-    $pageObj = (!empty($id) ? Pages::find($id): new Pages);
-    $pageObj->headline = $this->getParam('headline');
-    $pageObj->body = $this->getParam('description');
-    $pageObj->status = $this->getParam('status');
-    $pageObj->save();
-    self::redirectUrl('pagesadmin/index');
+	    $pageObj = (!empty($id) ? Pages::find($id): new Pages);
+	    $pageObj->headline = $this->getParam('headline');
+	    $pageObj->body = $this->getParam('description');
+	    $pageObj->status = $this->getParam('status');
+	    $pageObj->save();
+	    self::redirectUrl('pagesadmin/index');
 	}
 	
 	public function delete(){

@@ -72,10 +72,9 @@ class Controller extends Core {
      * Destructor of the class
      */
     function __destruct() {
-        if ($this->isPost() && count($this->validator->GetErrors()) > 0)
+    	if ($this->isPost() && count($this->validator->GetErrors()) > 0)
             $this->set("error", $this->validator->GetErrors());
-
-        $this->_template->render();
+		$this->_template->render();
     }
 
     /**
@@ -102,5 +101,4 @@ class Controller extends Core {
     function setView($view) {
     	$this->_template->setView($view);
     }
-
 }

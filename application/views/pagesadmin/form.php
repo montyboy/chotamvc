@@ -1,4 +1,5 @@
 <fieldset>
+	<?php echo (isset($zf_error) ? $zf_error : (isset($error) ? $error : ''));?>	
   <div class="row">
       <div class="cell"><?php echo $label_headline . $headline?></div>
   </div>
