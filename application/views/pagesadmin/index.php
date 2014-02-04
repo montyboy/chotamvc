@@ -1,3 +1,7 @@
+<?php if(isset($coremessages)):?>
+<div class="alert alert-success"><?php echo $coremessages;?></div>
+<?php endif;?>
+
 <a href="add" class="btn"><i class="icon-plus-sign"></i>&nbsp;Add new page</a>
 <br/>
 <?php

@@ -11,7 +11,7 @@ class adminController extends Controller {
 	public function __construct($controller="", $action=""){
 		parent::__construct($controller, $action);
 		$this->setLayout("admin/layout");
-		$this->adminuser = admin::getInstance();
+		$this->adminuser = admin::getInstance(true); //Get Logged in user object
 		$this->set('user',$this->adminuser);
 		$this->setTitle(SITE_NAME);
 		$this->breadcrumb = new BreadCrumb();

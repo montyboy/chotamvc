@@ -54,7 +54,6 @@ class Template {
         //set global vars
         $_user = $this->_user;
         $title = $this->_pageTitle;
-		
 		    //include common view function library
         require_once(ROOT . DS . 'library' . DS . 'framework' . DS .  'view.php');
         

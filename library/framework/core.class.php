@@ -140,6 +140,7 @@ abstract class Core {
      */
     public static function redirectUrl($url) {
         header('Location: ' .BASEPATH.$url);
+		exit;
     }
 
     /**

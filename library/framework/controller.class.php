@@ -37,9 +37,12 @@ class Controller extends Core {
       
         //set up template object
         $this->_template = new Template($controller, $action);
-        
-
-        //create validator object
+		
+		
+		$this->set("coremessages", Core::getAttr('core_message'));
+		Core::clearAttr('core_message');
+		
+		//create validator object
         $this->validator = new FormValidator();
     }
 
@@ -74,6 +77,7 @@ class Controller extends Core {
     function __destruct() {
     	if ($this->isPost() && count($this->validator->GetErrors()) > 0)
             $this->set("error", $this->validator->GetErrors());
+		
 		$this->_template->render();
     }
 
@@ -101,4 +105,8 @@ class Controller extends Core {
     function setView($view) {
     	$this->_template->setView($view);
     }
+	
+	function addMessage($message){
+		Core::setAttr('core_message', $message);
+	}	
 }
